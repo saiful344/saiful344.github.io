@@ -1,0 +1,242 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/gg.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-position:center;
+    font-family: sans-serif;
+}
+.pp {
+
+    border-radius: 10%;
+    width: 500px;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+.avatar {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+
+}
+h1 {
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;}
+  .pp form {
+
+    margin-left: 10%;}
+.pp form ul li label {
+
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+
+    }
+
+.pp ul li input[type="text"] {
+
+        border: none;
+        border-bottom-width: medium;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 10%;
+        color: #fff;
+        font-size: 16px;
+        width: 80%;
+
+    }
+    .pp ul li input[type="text"] {
+
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .pp ul li input[type="file"] {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.pp ul li button[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 45%;
+    float: right;
+
+}
+
+.pp ul li button[type="submit"] :hover{
+  cursor: pointer;
+  background: lightgreen;
+  color: #000;
+}
+.pp ul li input[type="password"]{
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 10%;
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+/*/login .php css /*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;}
+html{
+
+  background: url(img/gg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.jj {
+    border-radius: 10%;
+    width: 35%;
+    height: 80%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    list-style: none;
+}
+.avatar {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+}
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;}
+img{
+  height: 10%;
+  width: 10%;
+  position:relative;
+  margin-left: 45%;
+
+}
+.jj form {
+    margin-left: 8%;
+  }
+.jj ul li {
+  list-style: none;
+}
+.jj form ul li label {
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+    }
+.jj ul li input[type="text"] {
+        border: none;
+        border-bottom-width: medium;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 10%;
+        color: #fff;
+        font-size: 16px;
+        width: auto;
+    }
+.jj ul li input[type="text"] {
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+.jj ul li input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.jj ul li button[type="submit"] {
+
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 45%;
+    float: right;
+
+}
+
+.jj ul li button[type="submit"]:hover{
+  cursor: pointer;
+  background: lightgreen;
+  color: #000;
+}
+.jj ul li input[type="password"]{
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 10%;
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.jj form ul li label{
+  background: #fff;
+  font-size: 18px;
+  list-style:none;
+  border: none;
+}
+.jj form ul li label :hover{
+  cursor: pointer;
+  color: lightgreen;
+}

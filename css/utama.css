@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+    background: #ECF0F5;
+    background-size: cover;
+    margin: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -70px;
+}
+nav{
+  padding: 0;
+  margin: 0;
+  left: 0;
+  width:100%;
+  height: 50px;
+  position:fixed;
+  box-sizing: border-box;
+  transition: .3s;
+  background-color: #3C8DBC;
+  opacity: 0.9;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+nav ul li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #367FA9;
+}
+nav ul li a:hover:not(.active) {
+    background-color:none;
+}
+
+nav ul li a.active {
+    color: blue;
+}
+.gg{
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #222d32;
+  text-align:left;
+  transform-origin: left;
+  transition: all 400ms ease;
+  background-repeat:repeat-x;
+  list-style-type: none;
+  padding: 0;
+  width: 16%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  margin: 0
+
+}
+.gg ul{
+  list-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top:50px;
+
+}
+.gg ul li{
+  border-top: 1px solid #2a2a2a;
+  border-bottom: 1px solid #2a2a2a;
+  transition: all 0.3s;
+}
+.gg ul li:hover{
+  background: #2c3b41;
+  border-left: 5px solid  #367fa9;
+}
+.gg ul li a{
+  color:#fff;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  padding: 10px;
+}
+.gg ul h1{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background: #2a2a2a;
+}
+.gg ul li a.active{
+    background:  #2c3b41;
+    border-left: 5px solid #367fa9;
+}
+.gg ul li a.satu{
+  color: #fff;
+}
+.gg ul li a:hover:not(.active){
+  color: #fff;
+}
+#tabel{
+  margin-left: 23%;
+}
+ #tabel  table tr th{
+background-color: blue;
+color: #fff
+}
+.dlm{
+    margin-left: 16%;
+
+}
+#isi{
+  width: 63%;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 23%;
+  background-color: #f2f2f2;
+}
+.jumbotron{
+  background-image: url('bg1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -70px;
+  color:#eaeaea;}
+.jumbotron h1, .jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  }
+.jumbotron ul li{
+      width: 40%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      list-style: none;
+  }
+.jumbotron ul li:hover {
+      color: #fff;
+      background-color: #45a049;
+  }
+.jumbotron img{
+  border-radius: 20%;
+  width:200px;
+  border: 5px solid #eaeaea;
+}
+#isi h1{
+  text-align: center;
+}
+#isi h2{
+  text-align: center;
+}
+#isi h3{
+  text-align: center;
+  text-decoration: underline;
+}
+#isi .dalam{
+padding: 8%;
+border: 2px solid #444;
+box-shadow:  10px 10px 5px grey;
+}
+#isi .garis{
+  border-bottom: 2px solid #444;
+  border-top: 5px solid #444;
+}
+#isi .yth{
+  width: 100%;
+  height: 80px;
+}
+#isi .yth p{
+  float: right;
+}
+}
+.row li{
+  list-style: none;}
+
+.row button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row button[type=submit]:hover {
+    background-color: #45a049;
+}
+.dua{
+  margin-top: 15px;
+  float: right;
+}
+#isi .penutup{
+  margin: 5px;
+}
+#isi .kotak{
+  height: 20px;
+  width: 100%;
+}
+#isi table {
+    background-color: transparent;
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+#isi th, td {
+      text-align: left;
+      padding: 8px;
+  }
+
+#isi table tr:nth-child(even){
+    background-color: #f2f2f2;
+    }
+
+#isi table th {
+      background-color: #4CAF50;
+      color: white;
+  }
+.isi button[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+.isi button[type=submit]:hover {
+      background-color: #45a049;

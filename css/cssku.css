@@ -1,0 +1,105 @@
+html{
+  position: relative;
+}
+body{
+  margin-bottom: 100px;
+    background-image: url(123.jpg);
+    background-position-x: 0%;
+background-position-y: 0%;
+background-size: 100%;
+background-position:center;
+
+}
+nav{
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 50px;
+  position:fixed;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+nav.black{
+  background: rgba(0,0,0,0.8);
+  height: 100px;
+  padding: 10px 100px;
+}
+nav.logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .3s;
+}
+nav.black.logo{
+  color: #fff;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a{
+  line-height: 80px;
+  color: #151515;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+nav.black ul li
+
+
+.jumbotron{
+  background-image: url('../123.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -70px;
+  color:#eaeaea;}
+  .jumbotron h1, .jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  }
+
+.jumbotron img{
+  border-radius: 20%;
+  width:200px;
+  border: 5px solid #eaeaea;
+}
+
+hr{
+  width: 250px;
+  border-top: 3px solid #999;
+}
+section{
+  min-height: 600px;
+}
+
+.portfolio{
+  background-color: #eee;
+
+
+}
+.contact{
+  min-height: 800px
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: :100%;
+  background-color: #333;
+  color: #aaa;
+  padding-top: 30px;
+}
+footer p{
+  color: #aaa;
+  font-size: 0.9em;
+}
